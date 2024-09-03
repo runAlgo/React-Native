@@ -1,0 +1,44 @@
+import { useState } from "react";
+import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
+
+const colors = ["#FF5733", "#33FF57", "#3357FF", "#F333FF"];
+
+const ColorPicker: React.FC = () => {
+  const [selectedColor, setSelectedColor] = useState<string>("#fff");
+
+  return (
+    <View style={{backgroundColor: selectedColor}}>
+      <Text style={styles.title}>Pick a Color</Text>
+      <View style={styles.colorContainer}>
+        {colors.map((color) => (
+          <TouchableOpacity
+            key={color}
+            style={[styles.colorBox, {backgroundColor: color}]}
+            onPress={() => setSelectedColor(color)}
+          />
+        ))}
+      </View>
+    </View>
+  );
+};
+
+const styles = StyleSheet.create({
+  title: {
+    fontSize: 24,
+    marginBottom: 20,
+  },
+
+  colorContainer: {
+    flexDirection: "row",
+    flexWrap: "wrap",
+    justifyContent: "center",
+  },
+  colorBox: {
+    width: 60,
+    height: 60,
+    margin: 5,
+    borderRadius: 30,
+  },
+});
+
+export default ColorPicker;
