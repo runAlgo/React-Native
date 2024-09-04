@@ -30,6 +30,7 @@ import SharingState from '../components/4. Sharing State/SharingState'
 import ToggleButton from "../components/5. State Challenge01/ToggleButton";
 import Weather from "../components/WeatherApp/Weather";
 import ColorPicker from "../components/8. Color Picker/ColorPicker";
+import TodoList from "../components/9. Todo List/TodoList";
 
 
 
@@ -185,7 +186,8 @@ return (
     {/* <WeatherApp/> */}
   
     {/* <Weather/> */}
-    <ColorPicker/>
+    {/* <ColorPicker/> */}
+    <TodoList/>
   </View>
 )
   
