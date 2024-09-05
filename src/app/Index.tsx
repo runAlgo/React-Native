@@ -33,6 +33,7 @@ import ColorPicker from "../components/8. Color Picker/ColorPicker";
 import TodoList from "../components/9. Todo List/TodoList";
 import UseEffect from "../components/10. UseEffect/UseEffect";
 import DataFetch from "../components/10. UseEffect/DataFetch";
+import MealList from "../components/10. UseEffect/MealList";
 
 
 
@@ -191,7 +192,8 @@ return (
     {/* <ColorPicker/> */}
     {/* <TodoList/> */}
     {/* <UseEffect/> */}
-    <DataFetch/>
+    {/* <DataFetch/> */}
+    <MealList/>
   </View>
 )
   
