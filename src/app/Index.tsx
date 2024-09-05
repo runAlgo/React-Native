@@ -31,6 +31,8 @@ import ToggleButton from "../components/5. State Challenge01/ToggleButton";
 import Weather from "../components/WeatherApp/Weather";
 import ColorPicker from "../components/8. Color Picker/ColorPicker";
 import TodoList from "../components/9. Todo List/TodoList";
+import UseEffect from "../components/10. UseEffect/UseEffect";
+import DataFetch from "../components/10. UseEffect/DataFetch";
 
 
 
@@ -187,7 +189,9 @@ return (
   
     {/* <Weather/> */}
     {/* <ColorPicker/> */}
-    <TodoList/>
+    {/* <TodoList/> */}
+    {/* <UseEffect/> */}
+    <DataFetch/>
   </View>
 )
   
