@@ -34,6 +34,7 @@ import TodoList from "../components/9. Todo List/TodoList";
 import UseEffect from "../components/10. UseEffect/UseEffect";
 import DataFetch from "../components/10. UseEffect/DataFetch";
 import MealList from "../components/10. UseEffect/MealList";
+import FetechRandomUser from "../components/10. UseEffect/FetechRandomUser";
 
 
 
@@ -193,7 +194,8 @@ return (
     {/* <TodoList/> */}
     {/* <UseEffect/> */}
     {/* <DataFetch/> */}
-    <MealList/>
+    {/* <MealList/> */}
+    <FetechRandomUser/>
   </View>
 )
   
