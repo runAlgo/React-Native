@@ -35,8 +35,8 @@ import UseEffect from "../components/10. UseEffect/UseEffect";
 import DataFetch from "../components/10. UseEffect/DataFetch";
 import MealList from "../components/10. UseEffect/MealList";
 import FetechRandomUser from "../components/10. UseEffect/FetechRandomUser";
-
-
+import Counter from "../components/11. UseReducer/Counter";
+import TodoLists from "../components/11. UseReducer/TodoList";
 
 const index = () => {
 
@@ -195,7 +195,9 @@ return (
     {/* <UseEffect/> */}
     {/* <DataFetch/> */}
     {/* <MealList/> */}
-    <FetechRandomUser/>
+    {/* <FetechRandomUser/> */}
+    {/* <Counter/> */}
+    <TodoLists/>
   </View>
 )
   
