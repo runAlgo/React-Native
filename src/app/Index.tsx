@@ -37,6 +37,7 @@ import MealList from "../components/10. UseEffect/MealList";
 import FetechRandomUser from "../components/10. UseEffect/FetechRandomUser";
 import Counter from "../components/11. UseReducer/Counter";
 import TodoLists from "../components/11. UseReducer/TodoList";
+import AddProfile from "../components/11. UseReducer/AddProfile";
 
 const index = () => {
 
@@ -197,7 +198,8 @@ return (
     {/* <MealList/> */}
     {/* <FetechRandomUser/> */}
     {/* <Counter/> */}
-    <TodoLists/>
+    {/* <TodoLists/> */}
+    <AddProfile/>
   </View>
 )
   
